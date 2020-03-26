@@ -222,3 +222,65 @@
 .footer__link:hover {
   opacity: .8;
 }
+
+@media screen and (max-width:376px) {
+  .table__data {
+   margin: 0px auto 0px 0px;
+  }
+  .diagram__line {
+    width: 93%;
+    margin-left: 10px;
+
+  } 
+  .diagram__caption {
+    margin-left: 10px;
+    justify-content: left;
+  }
+  .total__number {
+    font-size: 50px;
+    margin: 0px auto;
+    
+  }
+  .total__title {
+    margin: 0px auto;
+  }
+
+  .table__data {
+    font-size: 10px;
+  }
+  .table__row {
+    grid-template-columns: minmax(100px, max-content) repeat(auto-fill, 90px) 20%;
+    margin: 0px 10px;
+  }
+
+  .diagram__country {
+    margin-right: 10px;
+  }
+  
+  .header {
+    min-width: 375px;
+  }
+  .footer {
+    margin: 70px auto 0 auto;
+  }
+
+  .footer__img {
+    margin-right: 5px;
+  }
+
+  .content {
+    width:auto;
+  }
+  .page__wrapper {
+    margin: 0px auto;
+  }
+  .content__total {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content__title {
+    padding: 10px 0 0 10px;
+  }
+
+}
