@@ -1,3 +1,5 @@
+@import url(../fonts/fonts.css);
+@import url(../styles/normalize.css);
 @keyframes blink {
   from {
     opacity: 1;

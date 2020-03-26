@@ -4,9 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>COVID-19</title>
-  <link rel="stylesheet" href="../fonts/fonts.css">
-  <link rel="stylesheet" href="../styles/normalize.css">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href=<%=htmlWebpackPlugin.files.chunks.main.css %>">
 </head>
 <body class="page">
   <header class="header page__header">
@@ -88,8 +86,8 @@
   <footer class="footer page__footer">
     <span>&copy; 2020 Источник данных — <a href="https://github.com/CSSEGISandData/COVID-19" target="_blank" class="footer__link">JHU CSSE</a></span>
     <a class="footer__link" href="https://github.com/742th?tab=repositories" target="_blank">Stepanov Alexandr</a>
-    <a href="https://praktikum.yandex.ru/" class='footer__img' target="_blank"><img src="../images/logo_white.svg"></a>
+    <a href="https://praktikum.yandex.ru/" class='footer__img' target="_blank"><img src="<%=require('./images/logo_white.svg').default%>"></a>
   </footer>
-<script src="./main.js"></script>
+<script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
 </html>
