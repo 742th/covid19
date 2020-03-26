@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COVID-19</title>
+  <link rel="stylesheet" href=style.bcc0ad29c10d117582d2.css">
+</head>
+<body class="page">
+  <header class="header page__header">
+    <span class="logo">SARS-CoV-2</span>
+    <p class="header__stat">
+      <span class="header__description">Всего случаев:</span>
+      <span class="header__total"></span>
+    </p>
+  </header>
+  <div class="content page__wrapper">
+    <h1 class="content__title">Данные о распространении коронавирусной инфекции SARS-CoV-2</h1>
+    <section class="total content__total">
+      <h2 class="total__title">Всего случаев • Live</h2>
+      <p class="total__number"></p>
+    </section>
+    <section class="rating">
+      <h2 class="heading">Топ-10 стран по количеству случаев</h2>
+      <table class="table rating__table">
+        <tr class="table__row table__row_type_heading">
+          <th class="table__title">Страна</th>
+          <th class="table__title">Заболели</th>
+          <th class="table__title">Умерли</th>
+          <th class="table__title">Вылечились</th>
+        </tr>
+      
+      </table>
+    </section>
+    <section class="mortality content__mortality">
+      <h2 class="heading">Самый высокий % смертности</h2>
+      <div class="diagram">
+        <div class="diagram__row">
+          <div class="diagram__caption">
+            <p class="diagram__country countryOne"></p>
+            <p class="diagram__analytics">
+              Смертность
+              <span class="diagram__data diagram__data_type_dead firstdead"></span> •
+              Вылечилось
+              <span class="diagram__data diagram__data_type_healed oneheal"></span>
+            </p>
+          </div>
+          <div class="diagram__line">
+            <div class="diagram__visualisation diagram__visualisation_type_healed oneHealLine" ></div>
+            <div class="diagram__visualisation diagram__visualisation_type_dead oneDeadLine" ></div>
+          </div>
+        </div>
+        <div class="diagram__row">
+          <div class="diagram__caption">
+            <p class="diagram__country countryTwo"></p>
+            <p class="diagram__analytics">
+              Смертность
+              <span class="diagram__data diagram__data_type_dead seconddead"></span> •
+              Вылечилось
+              <span class="diagram__data diagram__data_type_healed twoheal"></span>
+            </p>
+          </div>
+          <div class="diagram__line">
+            <div class="diagram__visualisation diagram__visualisation_type_healed twoHealLine"></div>
+            <div class="diagram__visualisation diagram__visualisation_type_dead twoDeadLine"></div>
+          </div>
+        </div>
+        <div class="diagram__row">
+          <div class="diagram__caption">
+            <p class="diagram__country countryThree"></p>
+            <p class="diagram__analytics">
+              Смертность
+              <span class="diagram__data diagram__data_type_dead thirddead"></span> •
+              Вылечилось
+              <span class="diagram__data diagram__data_type_healed threeheal"></span>
+            </p>
+          </div>
+          <div class="diagram__line">
+            <div class="diagram__visualisation diagram__visualisation_type_healed threeHealLine"></div>
+            <div class="diagram__visualisation diagram__visualisation_type_dead threeDeadline"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer class="footer page__footer">
+    <span>&copy; 2020 Источник данных — <a href="https://github.com/CSSEGISandData/COVID-19" target="_blank" class="footer__link">JHU CSSE</a></span>
+    <a class="footer__link" href="https://github.com/742th?tab=repositories" target="_blank">Stepanov Alexandr</a>
+    <a href="https://praktikum.yandex.ru/" class='footer__img' target="_blank"><img src="./images/logo_white.svg"></a>
+  </footer>
+<script src="main.3a37f7c5095de1ecbb4d.js"></script>
+</body>
+</html>
