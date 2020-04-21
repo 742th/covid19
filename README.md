@@ -1,4 +1,5 @@
 # **covid19**
+https://742th.github.io/covid19/
 ## Проект сделал: :mask:Степанов Александр:mask:<br>
 совместно с :computer:*Яндекс.Практикум*:copyright:<br>
 
